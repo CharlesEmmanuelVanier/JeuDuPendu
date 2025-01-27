@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02c866a3-d0cb-4e22-a908-d092c572e4b1" name="Changes" comment="Création du repo">
-      <change beforePath="$PROJECT_DIR$/JeuDuPendu.py" beforeDir="false" afterPath="$PROJECT_DIR$/JeuDuPendu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/names.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,22 +22,23 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "CharlesEmmanuelVanier"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;CharlesEmmanuelVanier&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/CharlesEmmanuelVanier/JeuDuPendu",
-    "accountId": "0ee565f4-c478-47e4-a2d9-2cb8d9a10dea"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/CharlesEmmanuelVanier/JeuDuPendu&quot;,
+    &quot;accountId&quot;: &quot;0ee565f4-c478-47e4-a2d9-2cb8d9a10dea&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2sDaET1oqpWXJAU155LEhYy44CI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -46,7 +48,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/AQ66300/MGA802/JeuDuPendu"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -81,7 +84,23 @@
       <option name="project" value="LOCAL" />
       <updated>1737993217117</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Création du repo">
+      <option name="closed" value="true" />
+      <created>1737993349822</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1737993349822</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Création du repo">
+      <option name="closed" value="true" />
+      <created>1737993518502</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1737993518502</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
