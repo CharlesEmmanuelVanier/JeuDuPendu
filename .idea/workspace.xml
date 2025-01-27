@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02c866a3-d0cb-4e22-a908-d092c572e4b1" name="Changes" comment="Ajout du fichier texte">
+    <list default="true" id="02c866a3-d0cb-4e22-a908-d092c572e4b1" name="Changes" comment="Lecture du fichier texte. Choix d'un mot aléatoire et on enleve les accents">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JeuDuPendu.py" beforeDir="false" afterPath="$PROJECT_DIR$/JeuDuPendu.py" afterDir="false" />
     </list>
@@ -23,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="AjoutDuFichierTexte" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,7 +55,7 @@
     "Python.JeuDuPendu.executor": "Run",
     "Python.TestStringAccent.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "AjoutDuFichierTexte",
+    "git-widget-placeholder": "FonctionnementDuJeuDuPendu",
     "last_opened_file_path": "C:/Users/AQ66300/MGA802/JeuDuPendu"
   }
 }]]></component>
@@ -115,12 +115,21 @@
       <option name="project" value="LOCAL" />
       <updated>1737994135664</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Lecture du fichier texte. Choix d'un mot aléatoire et on enleve les accents">
+      <option name="closed" value="true" />
+      <created>1738005252111</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1738005252111</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Création du repo" />
     <MESSAGE value="Ajout du fichier texte" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout du fichier texte" />
+    <MESSAGE value="Lecture du fichier texte. Choix d'un mot aléatoire et on enleve les accents" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lecture du fichier texte. Choix d'un mot aléatoire et on enleve les accents" />
   </component>
 </project>
