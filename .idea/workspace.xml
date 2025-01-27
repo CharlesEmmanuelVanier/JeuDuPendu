@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02c866a3-d0cb-4e22-a908-d092c572e4b1" name="Changes" comment="Création du repo" />
+    <list default="true" id="02c866a3-d0cb-4e22-a908-d092c572e4b1" name="Changes" comment="Création du repo">
+      <change beforePath="$PROJECT_DIR$/JeuDuPendu.py" beforeDir="false" afterPath="$PROJECT_DIR$/JeuDuPendu.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +22,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "CharlesEmmanuelVanier"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/CharlesEmmanuelVanier/JeuDuPendu",
+    "accountId": "0ee565f4-c478-47e4-a2d9-2cb8d9a10dea"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 2
 }]]></component>
@@ -59,7 +73,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737993199275</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Création du repo">
+      <option name="closed" value="true" />
+      <created>1737993217117</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1737993217117</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
