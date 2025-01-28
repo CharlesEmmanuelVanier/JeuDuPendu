@@ -23,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="AjoutDuFichierTexte" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,10 +55,15 @@
     "Python.JeuDuPendu.executor": "Run",
     "Python.TestStringAccent.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "FonctionnementDuJeuDuPendu",
+    "git-widget-placeholder": "AjoutCustomTextFile",
     "last_opened_file_path": "C:/Users/AQ66300/MGA802/JeuDuPendu"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\AQ66300\MGA802\JeuDuPendu" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -149,16 +154,5 @@
     <MESSAGE value="Le jeu fonctionne et l'affichage est correct." />
     <MESSAGE value="Ajout du choix pour recommencer une partie" />
     <option name="LAST_COMMIT_MESSAGE" value="Ajout du choix pour recommencer une partie" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/TestStringAccent.py</url>
-          <line>12</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

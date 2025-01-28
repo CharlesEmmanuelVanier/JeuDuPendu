@@ -1,15 +1,13 @@
 import random
 import unicodedata
 import string
-
-#Fichier texte utilisé par défaut
-Filename = "names.txt"
+import os.path
 
 def strip_accent(s):
     return ''.join(c for c in unicodedata.normalize('NFD', s)
                    if unicodedata.category(c) != 'Mn')
 
-def GetRandom(File):
+def GetRandom(Filename):
     File = open(Filename, "r", encoding="utf8")
     string = File.readlines()
     return strip_accent(random.choice(string))
@@ -37,7 +35,7 @@ def CheckWin(VerifWin):
             return 0
     return 1
 
-def JeuDuPendu():
+def JeuDuPendu(Filename):
     NbreChances = 6
     NameChosen = GetRandom(Filename).strip()
     VerifName = []
@@ -71,11 +69,11 @@ def JeuDuPendu():
             print(f"Félicitation! Il y a {GoodGuess} '{Guess}' dans le mot.")
             #Petite fonction qui détermine si le joueur a deviner le mot en entier ou s'il reste des lettres à deviner
             if(CheckWin(VerifName)):
-                print(f"VICTOIRE !\n Félication vous avez gagné!\nLe mot était {NameChosen}")
+                print(f"VICTOIRE !\nFélicitation vous avez gagné!\nLe mot était '{NameChosen}'")
                 return 1
         else:
             NbreChances -= 1
-            print(f"Malheuresement il n'y a pas de {Guess} dans le mot\n Vous perdez une chance.")
+            print(f"Malheuresement il n'y a pas de '{Guess}' dans le mot\n Vous perdez une chance.")
             print(f"Il vous reste {NbreChances} chances")
             if (NbreChances == 1):
                 if (input("\nIl ne vous reste plus qu'une seule vie !\n Voulez-vous un indice ? (o/n) ") == "o"):
@@ -86,8 +84,26 @@ def JeuDuPendu():
                     print(f"Le mot était {NameChosen}")
                     return 0
 
-def restart():
-    result = JeuDuPendu()
+def ChangementFile():
+    print("À noter que le format du fichier devra être le suivant:\n"
+          "mot1\n"
+          "mot2\n"
+          "mot3\n"
+          "Ainsi de suite\n")
+    return input("\n\n Veuillez entrer le nom du fichier a utiliser (Exemple : 'names.txt')\n")
+
+def menu():
+    customFile = input("Bienvenue dans le jeu du pendu ! \n"
+          "Voulez-vous utiliser une liste de mot personnalisé? (o/n) ")
+
+    if(customFile == "o"):
+        Filename = ChangementFile()
+    else:
+        Filename = "names.txt"
+
+    #Lancement de la première partie
+    result = JeuDuPendu(Filename)
+    #Demande au joueur s'il veut rejouer, jusqu'à ce qu'il ne veule plus.
     choix = "o"
     while(choix == "o"):
         if result == 1:
@@ -99,4 +115,4 @@ def restart():
         else:
             print("\n\n\nÀ bientot!")
 
-restart()
+menu()
