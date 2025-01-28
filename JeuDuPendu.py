@@ -39,7 +39,6 @@ def jeu_du_pendu(filename):
     nameChosen = get_random(filename).strip()
     verifName = []
     guessHistory = []
-    print(nameChosen)
     for i in range(len(nameChosen)):
         verifName.append(0)
 
